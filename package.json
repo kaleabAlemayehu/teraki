@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chrome-types": "^0.1.327"
-  }
+  "license": "ISC"
 }
