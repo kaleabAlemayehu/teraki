@@ -1,5 +1,6 @@
-console.log("Hello World, Content");
-const c = document.querySelector("#byline");
-if (c) {
-	c.textContent = "it is changed by content";
-}
+self.addEventListener("mouseup", () => {
+	const selection = self.getSelection();
+	if (selection && selection.type != "Caret") {
+		console.log(selection.toString());
+	}
+});
